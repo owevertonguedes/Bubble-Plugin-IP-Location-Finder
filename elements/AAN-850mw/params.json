@@ -1,0 +1,24 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 0,
+        "width": 0
+    },
+    "display": "IP User",
+    "icon": "ion-ios-location",
+    "property_applications": {
+        "MinWidth": false,
+        "resizable": false
+    },
+    "states": {
+        "AAO": {
+            "caption": "IP",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "ip",
+            "value": "text"
+        }
+    }
+}

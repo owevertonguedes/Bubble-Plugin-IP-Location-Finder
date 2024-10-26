@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "web scraping",
+        "2": "location"
+    },
+    "data_tracked": false,
+    "demo_page": "https://wecodeless.site/plugins/IP-Location-Finder",
+    "description": "The IP Location Finder plugin allows you to easily obtain the IP address of your users and their geographical location. To get the IP address of a user, you need to add the \"IP User\" element to your page. This element does not occupy any space on the screen and can be set to \"Collapse when hidden\" if needed. Its sole purpose is to fetch and store the user's IP address.\n\nOnce you have the IP address, you can use two methods to obtain the user's location:\n\nGet Data IP Location: Use this method when you want to retrieve the location data without requiring an action trigger. This is useful for scenarios where you need the location data as part of the page load or other passive operations.\n\nAction Get IP Location: This action is triggered by specific events or user interactions, allowing you to fetch the location data when needed. This is ideal for workflows that depend on user actions.\n\nBy using this plugin, you can seamlessly integrate IP-based location services into your Bubble applications, enhancing user experiences and providing valuable geographical insights.",
+    "image": "//meta-q.cdn.bubble.io/f1721052772234x576418607476802940/ip-address_6146584.png",
+    "license": "open_source",
+    "name": "IP Location Finder",
+    "plugin_instructions": "1. Obtaining the User's IP Address:\n   - Add the \"IP User\" element to your page.\n   - Set the element to \"Collapse when hidden\" to ensure it doesn't take up visible space.\n   - The element will automatically fetch and store the user's IP address.\n\n2. Getting the User's Location:\n   - Use the Get Data IP Location action to fetch the location data without requiring a trigger. This action will return the user's location details based on the IP address stored by the \"IP User\" element.\n   - Use the Action Get IP Location when you need to fetch the location data in response to specific events or user actions. This action will also return the user's location details based on the IP address stored by the \"IP User\" element.",
+    "sa_node_version": 18
+}

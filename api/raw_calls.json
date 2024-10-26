@@ -1,0 +1,24 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAI": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get IP Location",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1721052201293x140475646937137150.plugin_api.AAI",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAI\":{\"caption\":\"Get IP Location\",\"fields\":{\"_p_status\":{\"ret_btype\":\"text\",\"caption\":\"status\",\"sample_value\":\"success\",\"path\":[\"status\"]},\"_p_country\":{\"ret_btype\":\"text\",\"caption\":\"country\",\"sample_value\":\"United States\",\"path\":[\"country\"]},\"_p_countryCode\":{\"ret_btype\":\"text\",\"caption\":\"countryCode\",\"sample_value\":\"US\",\"path\":[\"countryCode\"]},\"_p_region\":{\"ret_btype\":\"text\",\"caption\":\"region\",\"sample_value\":\"OR\",\"path\":[\"region\"]},\"_p_regionName\":{\"ret_btype\":\"text\",\"caption\":\"regionName\",\"sample_value\":\"Oregon\",\"path\":[\"regionName\"]},\"_p_city\":{\"ret_btype\":\"text\",\"caption\":\"city\",\"sample_value\":\"Portland\",\"path\":[\"city\"]},\"_p_zip\":{\"ret_btype\":\"text\",\"caption\":\"zip\",\"sample_value\":\"97207\",\"path\":[\"zip\"]},\"_p_lat\":{\"ret_btype\":\"number\",\"caption\":\"lat\",\"sample_value\":45.5235,\"path\":[\"lat\"]},\"_p_lon\":{\"ret_btype\":\"number\",\"caption\":\"lon\",\"sample_value\":-122.676,\"path\":[\"lon\"]},\"_p_timezone\":{\"ret_btype\":\"text\",\"caption\":\"timezone\",\"sample_value\":\"America/Los_Angeles\",\"path\":[\"timezone\"]},\"_p_isp\":{\"ret_btype\":\"text\",\"caption\":\"isp\",\"sample_value\":\"Amazon.com, Inc.\",\"path\":[\"isp\"]},\"_p_org\":{\"ret_btype\":\"text\",\"caption\":\"org\",\"sample_value\":\"AWS EC2 (us-west-2)\",\"path\":[\"org\"]},\"_p_as\":{\"ret_btype\":\"text\",\"caption\":\"as\",\"sample_value\":\"AS16509 Amazon.com, Inc.\",\"path\":[\"as\"]},\"_p_query\":{\"ret_btype\":\"text\",\"caption\":\"query\",\"sample_value\":\"52.39.99.34\",\"path\":[\"query\"]}}}}",
+            "url": "http://ip-api.com/json/[IP]",
+            "url_params": {
+                "AAK": {
+                    "key": "IP",
+                    "private": true,
+                    "value": "52.39.99.34"
+                }
+            }
+        }
+    },
+    "human": "IP Location Finder"
+}

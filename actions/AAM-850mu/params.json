@@ -1,0 +1,102 @@
+{
+    "category": "plugins",
+    "display": "IP Location Finder",
+    "fields": {
+        "AAP": {
+            "caption": "IP",
+            "default_val": "52.39.99.34",
+            "editor": "DynamicValue",
+            "name": "ip",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAR": {
+            "caption": "status",
+            "name": "status",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "country",
+            "name": "country",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "countryCode",
+            "name": "countryCode",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "region",
+            "name": "region",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "regionName",
+            "name": "regionName",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "city",
+            "name": "city",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "zip",
+            "name": "zip",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "lat",
+            "name": "lat",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAZ": {
+            "caption": "lon",
+            "name": "lon",
+            "rank": 8,
+            "value": "number"
+        },
+        "AAa": {
+            "caption": "timezone",
+            "name": "timezone",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "isp",
+            "name": "isp",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "org",
+            "name": "org",
+            "rank": 11,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "as",
+            "name": "as",
+            "rank": 12,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "query",
+            "name": "query",
+            "rank": 13,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
